@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Victoria Schoenwald"
 title_separator          : "-"
-name                     : &name "PhD Student"
-description              : &description "Univ. of Miami/ School of Marine, Atmospheric, and Earth Science"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "Victoria Schoenwald, Ph.D."
+description              : &description "Postdoctoral Researcher studying regional sea-level variability, atmospheric forcing, coastal ocean dynamics, and climate variability."
+url                      : "https://victoriaschoenwald.github.io"
+baseurl                  : ""
+repository               : "victoriaschoenwald/victoriaschoenwald.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
