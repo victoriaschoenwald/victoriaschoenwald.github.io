@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Victoria Schoenwald"
+  name             : "Victoria Schoenwald, Ph.D."
   avatar           : "profile.png"
-  bio              : "bio : "Postdoctoral Researcher in Atmospheric Science & Oceanography"
+  bio              : "Postdoctoral Researcher studying regional sea-level rise, atmospheric forcing, and climate variability."
   location         : "University of Miami"
   employer         : "Kirtman Lab"
-  pubmed           : 
+  pubmed            :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=Bmkf4E0AAAAJ"
-  email            :
-  researchgate     : "https://www.researchgate.net/profile/Victoria-Schoenwald?ev=hdr_xprf"
+  email            : "vks16@miami.edu"
+  researchgate     : "https://www.researchgate.net/profile/Victoria-Schoenwald"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "victoriaschoenwald"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0007-6140-8332"
+  orcid            : "https://orcid.org/0009-0007-6140-8332"
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
