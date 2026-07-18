@@ -39,3 +39,105 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* =========================================
+   Victoria Schoenwald — Coastal Cottage Theme
+   ========================================= */
+
+/* Color palette */
+$warm-cream: #faf7f2;
+$soft-white: #fffdf9;
+$coastal-blue: #647f91;
+$deep-blue: #405d6c;
+$sea-glass: #bfd8d2;
+$soft-blush: #e8c9c7;
+$butter-yellow: #f2e4a4;
+$charcoal: #45484a;
+
+/* Main page */
+html,
+body {
+  background-color: $warm-cream;
+  color: $charcoal;
+}
+
+/* Top navigation */
+.masthead {
+  background-color: $soft-white;
+  border-bottom: 3px solid $butter-yellow;
+}
+
+.greedy-nav {
+  background-color: $soft-white;
+}
+
+.greedy-nav a {
+  color: $deep-blue;
+}
+
+.greedy-nav a:hover {
+  color: $coastal-blue;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title {
+  color: $deep-blue;
+}
+
+/* Links */
+a {
+  color: $coastal-blue;
+}
+
+a:hover {
+  color: $deep-blue;
+}
+
+/* Main content and sidebar */
+.page,
+.sidebar {
+  color: $charcoal;
+}
+
+.author__avatar img {
+  border: 4px solid $soft-blush;
+  border-radius: 50%;
+}
+
+.author__name {
+  color: $deep-blue;
+}
+
+/* Buttons */
+.btn {
+  background-color: $coastal-blue;
+  border-radius: 999px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: $deep-blue;
+  color: white;
+}
+
+/* Content accents */
+.page__content h2 {
+  border-bottom: 3px solid $sea-glass;
+  padding-bottom: 0.35em;
+}
+
+/* Footer */
+.page__footer {
+  background-color: $sea-glass;
+  color: $deep-blue;
+}
+
+.page__footer a {
+  color: $deep-blue;
+}
