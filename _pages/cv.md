@@ -26,7 +26,7 @@ I study how climate change and natural variability influence regional sea-level 
 - Regional sea-level variability and change
 - Coastal ocean dynamics and flooding
 - Gulf Stream variability
-- Atmosphereâ€“ocean interactions
+- Atmosphere–ocean interactions
 - Climate variability and predictability
 - High-resolution climate modeling
 
@@ -40,7 +40,7 @@ I study how climate change and natural variability influence regional sea-level 
 
 ## Workshops and professional development
 
-- **GO-BGC Float Data and Science Workshop**, University of Washington, Seattle, Washington, August 17â€“21, 2026<br>
+- **GO-BGC Float Data and Science Workshop**, University of Washington, Seattle, Washington, August 17–21, 2026<br>
   Selected participant in a collaborative, hackathon-style workshop using BGC-Argo float data to address ocean biogeochemistry research questions.
 
 ## Publications
