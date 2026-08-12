@@ -55,8 +55,8 @@ For a complete and current publication record, visit my [Google Scholar profile]
 
 ### Seasoned Chaos
 
-**Editor**, [Seasoned Chaos](https://seasonedchaos.github.io/) | Present
-
+**Editor**, [Seasoned Chaos](https://seasonedchaos.github.io/)<br>
+Present
 - Contribute to a student-run science communication blog about subseasonal-to-seasonal forecasting for scientific and general audiences.
 - Author, ["The AMOC Mountain Ski Resort"](https://seasonedchaos.github.io/AMOC-Mountain-Ski-Resort/)
 
