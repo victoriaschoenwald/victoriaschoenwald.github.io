@@ -37,15 +37,13 @@
         </li>
       {% endif %}
 
-      {% if author.employer %}
-        <li class="author__desktop">
-          <a href="https://kirtman-research-group.github.io/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35em; white-space: nowrap;">
-            <i class="fas fa-fw fa-cloud" style="color: inherit !important;" aria-hidden="true"></i>
-            <span>{{ author.employer }}</span>
-          </a>
-        </li>
-      {% endif %}
-
+{% if author.employer %}
+  <li class="author__desktop" style="white-space: nowrap;">
+    <a href="https://kirtman-research-group.github.io/" target="_blank" rel="noopener noreferrer" style="display: inline-flex !important; align-items: center; flex-wrap: nowrap; white-space: nowrap;">
+      <i class="fas fa-fw fa-cloud" style="color: inherit !important; display: inline-block !important;" aria-hidden="true"></i>&nbsp;{{ author.employer }}
+    </a>
+  </li>
+{% endif %}
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}">
