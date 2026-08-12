@@ -224,10 +224,13 @@ h6,
 
 /* Lighthouse navigation header */
 .masthead {
-  min-height: 112px;
+  min-height: 72px;
   background:
-    linear-gradient(rgba(251, 249, 244, 0.76), rgba(251, 249, 244, 0.76)),
-    url("/images/coastal-ocean-header.jpg") center 56% / cover no-repeat !important;
+    linear-gradient(
+      rgba(239, 214, 158, 0.34),
+      rgba(248, 237, 209, 0.34)
+    ),
+    url("/images/coastal-ocean-header.jpg?v=3") center 52% / cover no-repeat !important;
   border-bottom: 3px solid #c8b99f !important;
 }
 
@@ -265,5 +268,33 @@ h6,
 
   .masthead {
     background-position: center 52% !important;
+  }
+}
+
+/* Slimmer ocean navigation header */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav {
+  min-height: 72px !important;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  font-size: 1.08rem !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 700px) {
+  .masthead,
+  .masthead__inner-wrap,
+  .masthead__menu,
+  .greedy-nav {
+    min-height: 62px !important;
+  }
+
+  .greedy-nav a,
+  .masthead__menu-item a {
+    font-size: 1rem !important;
   }
 }
