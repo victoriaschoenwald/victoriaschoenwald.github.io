@@ -293,6 +293,138 @@ h6,
     min-height: 62px !important;
   }
 
+   /* Final coastal cottage theme */
+html,
+body {
+  background-color: #faf7f2 !important;
+  color: #45484a !important;
+}
+
+/* Sunset navigation header */
+.masthead {
+  min-height: 72px !important;
+  background:
+    linear-gradient(
+      rgba(255, 253, 249, 0.36),
+      rgba(255, 253, 249, 0.36)
+    ),
+    url("/images/cottage-sunset-header.jpg?v=1") center 52% / cover no-repeat !important;
+
+  border-bottom: 3px solid #f2e4a4 !important;
+}
+
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav {
+  min-height: 72px !important;
+  background: transparent !important;
+}
+
+.greedy-nav {
+  display: flex;
+  align-items: center;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  color: #405d6c !important;
+  font-size: 1.08rem !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(255, 253, 249, 0.95) !important;
+}
+
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: #647f91 !important;
+}
+
+/* Original cottage-core headings and links */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.page__title {
+  color: #405d6c !important;
+}
+
+.page__content a,
+.author__urls a {
+  color: #647f91 !important;
+}
+
+.page__content a:hover,
+.author__urls a:hover {
+  color: #405d6c !important;
+}
+
+.author__avatar img {
+  border: 4px solid #e8c9c7 !important;
+}
+
+.page__content h2 {
+  border-bottom-color: #bfd8d2 !important;
+}
+
+.btn {
+  background-color: #647f91 !important;
+}
+
+.btn:hover {
+  background-color: #405d6c !important;
+}
+
+.page__footer {
+  background-color: #bfd8d2 !important;
+  color: #405d6c !important;
+}
+
+.page__footer a {
+  color: #405d6c !important;
+}
+
+/* Cottage-core blog cards */
+.blog-card {
+  background: #fffdf9;
+  border-color: #d9e3e1;
+  box-shadow: 0 4px 14px rgba(64, 93, 108, 0.08);
+}
+
+.blog-card:hover {
+  box-shadow: 0 8px 20px rgba(64, 93, 108, 0.14);
+}
+
+.blog-card__image {
+  background: #eef3f2;
+}
+
+.blog-card__date {
+  color: #6c777c;
+}
+
+.blog-card__body h2 a {
+  color: #405d6c !important;
+}
+
+.blog-card__body h2 a:hover {
+  color: #647f91 !important;
+}
+
+@media (max-width: 700px) {
+  .masthead,
+  .masthead__inner-wrap,
+  .masthead__menu,
+  .greedy-nav {
+    min-height: 62px !important;
+  }
+
+  .greedy-nav a,
+  .masthead__menu-item a {
+    font-size: 1rem !important;
+  }
+}
+
   .greedy-nav a,
   .masthead__menu-item a {
     font-size: 1rem !important;
