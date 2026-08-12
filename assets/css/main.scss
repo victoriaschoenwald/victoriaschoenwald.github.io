@@ -221,3 +221,49 @@ h6,
 .blog-card__body h2 a:hover {
   color: #587789 !important;
 }
+
+/* Lighthouse navigation header */
+.masthead {
+  min-height: 112px;
+  background:
+    linear-gradient(rgba(251, 249, 244, 0.76), rgba(251, 249, 244, 0.76)),
+    url("/images/coastal-lighthouse-header.jpg") center 56% / cover no-repeat !important;
+  border-bottom: 3px solid #c8b99f !important;
+}
+
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav {
+  min-height: 112px;
+  background: transparent !important;
+}
+
+.greedy-nav {
+  display: flex;
+  align-items: center;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  color: #263f50 !important;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(251, 249, 244, 0.9);
+}
+
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: #587789 !important;
+}
+
+@media (max-width: 700px) {
+  .masthead,
+  .masthead__inner-wrap,
+  .masthead__menu,
+  .greedy-nav {
+    min-height: 84px;
+  }
+
+  .masthead {
+    background-position: 38% 54% !important;
+  }
+}
